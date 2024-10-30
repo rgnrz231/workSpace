@@ -4,7 +4,7 @@
     {
         return secNum + 1;
     }
-    else if (secNum == 0)
+    else if (firstNum > 0 && secNum == 0)
     {
         return AckermannFunction(firstNum - 1, 1);
     }
